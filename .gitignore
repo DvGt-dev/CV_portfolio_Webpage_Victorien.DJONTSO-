@@ -1,0 +1,7 @@
+# .gitignore
+Welcome.md
+*.canvas
+.*
+!.git/
+!.gitignore
+.obsidian/
