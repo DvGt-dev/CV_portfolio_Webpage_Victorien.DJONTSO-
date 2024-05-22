@@ -20,7 +20,7 @@ cd "$folder"
 source ./mydjangoenv/bin/activate
 
 # Install Django
-# pip install django
+pip install django
 
 # Clone the project
 # git clone https://github.com/BurhanMohammad/Django-portfilio-website.git
