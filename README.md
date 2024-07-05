@@ -17,16 +17,15 @@ Personal portfolio website made with Django framework in the backend, and with C
 
 ## Screenshots
 
-![image](https://user-images.githubusercontent.com/104616403/210331817-c266db91-fcfa-40e2-99ad-8c857c55051d.png)
 
-![image](https://user-images.githubusercontent.com/104616403/210332043-779ddac8-b1a7-4414-b5bd-ebe67d4200df.png)
-![image](https://user-images.githubusercontent.com/104616403/210332104-4a4556c7-5583-43bc-b39a-bc62b6b5e367.png)
 
-![image](https://user-images.githubusercontent.com/104616403/210332171-190afc75-9174-4ffa-b9d2-3541b5fd0ebb.png)
 
-![image](https://user-images.githubusercontent.com/104616403/210332226-cbfbe6e5-732d-4442-9aae-218b6e6292b0.png)
 
-![image](https://user-images.githubusercontent.com/104616403/210332284-9d69c838-ab8e-4e71-ac6b-2f0ed514561a.png)
+![image](https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-22%20120847.png)
+
+![image]https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-21%20134208.png()
+![image](https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-19%20125227.png)
+
 
 
 
@@ -35,14 +34,10 @@ Personal portfolio website made with Django framework in the backend, and with C
 
 
 ## 🛠 Skills
-Javascript, HTML, CSS, python, Django, Bootstrap...
+python, Django, Javascript, HTML, CSS...
 
 
-# Hi, I'm DJontso victorien ! 👋
-
-
-## 🚀 About Me
-I'm a full stack developer...
+# Hi, I'm Djontso victorien ! 👋
 
 
 ## Feedback
