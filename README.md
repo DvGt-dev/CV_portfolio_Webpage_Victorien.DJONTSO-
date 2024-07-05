@@ -83,6 +83,65 @@ Start the server
   python manage.py runserver     
 ```
 
+## Docker Users
+
+```yaml
+
+
+services:
+
+  django:
+    build:
+      context: /mnt/c/ggggg/dvrch/Documents/docker_directory/Django-Portfolio-website
+      dockerfile: djdkf
+    image: Django_Portfilio_MohammadBurhan
+    ports:
+      - "8000:8000"
+    volumes:
+      - /mnt/c/Users/gggg/Documents/docker_directory/Django-Portfolio-website:/app
+    command: [python, manage.py, runserver, 0.0.0.0:8000]
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    privileged: true
+
+  jupyter:
+    build:
+      context: /mnt/c/gggg/dvrch/Documents/docker_directory/jupyter
+      dockerfile: jpdkf
+    image: Django_Portfilio_MohammadBurhan-jupyter
+    ports:
+      - "8888:8888"
+    volumes:
+      - /mnt/c/Users/gggg/Documents/docker_directory/jupyter:/notebooks
+    command: [jupyter, notebook, --ip, 0.0.0.0, --no-browser, --allow-root, --NotebookApp.token='']
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]
+    privileged: true
+
+
+# docker compose -f /mnt/c/Users/dvrch/Documents/docker_directory/Django-Portfolio-website/djcps.yml up -d
+````
+```Dockerfile
+    FROM python:3.10.7
+    WORKDIR /app
+    COPY requirements.txt .
+    RUN pip install --upgrade pip setuptools wheel
+    COPY . .
+    RUN pip install --no-cache-dir -r requirements.txt
+    CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
+
+````
+
 
 ## Authors
 
