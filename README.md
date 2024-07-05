@@ -23,7 +23,7 @@ Personal portfolio website made with Django framework in the backend, and with C
 
 ![image](https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-22%20120847.png)
 
-![image]https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-21%20134208.png()
+![image](https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-21%20134208.png)
 ![image](https://github.com/DvGt-dev/CV_portfolio_Webpage_Victorien.DJONTSO-/blob/main/staticfiles/img/Capture%20d'%C3%A9cran%202024-05-19%20125227.png)
 
 
